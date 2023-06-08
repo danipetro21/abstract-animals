@@ -1,4 +1,10 @@
 package org.lessons.java.animals;
 
-public class Aquila {
+public class Aquila extends Animale{
+
+
+    @Override
+    public void verso() {
+        System.out.println("Strick");
+    }
 }
